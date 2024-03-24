@@ -31,318 +31,52 @@ h6{
     font-size: inherit;
 }
 body{
-    font-family: 'Saira Condensed', sans-serif;
+background-color: black;
+
 }
+
 .wrapper{
     overflow-x:hidden;
     min-height: 100%;
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
-
-
-.main1{
-    position: absolute;
-    top:0;
-    left:0;
-    background-image: url("/img/main/1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:100%;
-    height:880px;
-}
-.text1{
-    color: red;
-    margin: 122px 25px 597px 1450px;
-    width: 400px;
-    height: 200px;
-    font-size: 65px;
-}
-.main2{
-    margin-top: 880px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-image: url("img/main/1644900092_4-abrakadabra-fun-p-suprematizm-oboi-4.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:100%;
-    height: 880px;
-    
-   
-}
-
-.main2 h1{
-    margin-top: 10px;
-    text-align: center;
-    font-size: 45px;
-    font-weight: 500;
-}
-
-.main2 p{
-margin-top: 20px;
+.main{
+ width:1080px;
+ height: 2000px;
 text-align: center;
-font-size: 30px;
-margin-bottom: 35px;
-color: red;
-}
-
-
-
-.text2{
-    text-align: center;
-}
-.text2 a{
-    font-size: 30px;
-    margin-top: 20px;
-    text-align: center;
-    margin-bottom: 35px;
-    color:red;
-    padding-left: 16px;
-}
-
-.main3{
-    margin-top: 860px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-image: url("img/main/1623640486_7-phonoteka_org-p-abstraktsiya-suprematizm-oboi-krasivo-8.jpg");
-    background-size: cover;
+  background-image: url(https://i.pinimg.com/564x/dd/28/ad/dd28add005f2e1bbe47754a4a8769e0b.jpg);
     background-repeat: no-repeat;
-    width:100%;
-    height: 860px;
+  background-size: cover;
 }
-.text3 p{
-color: blue;
-padding-top:15px ;
+.q11 { 
+  margin-top: 30px;
+  width: 400px;
+ height: 40px;
+color: Bisque;
+background-color: black;
+text-align: center;
+ border: 1px solid Bisque;
+border-radius: 15px;}
+p{
+  color: Bisque;
+  font-size: 45px;
+    margin-right: 200px;
+  margin-left: 200px;
 }
-.text3 h1{
-    color: black;
-}
-.main4{
-    margin-top: 1720px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-image: url("img/main/124.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:100%;
-    height: 860px;
-}
-
-.main4 h1{
-color: red;
-margin-top: 20px;
-}
-.c a{
-    color: #C71585;
-}
-.b a{
-    color: white;
-}
-.c4 a{
-    color: black;
- }
-.sup1 h1{
-color: red;
-}
-.sup1{
-    margin: 150px 240px 0px 240px;
-    display: flex;
-    width: 1400px;
-    height: 61px;
-}
-.title4{
-    margin: 50px 1241px 300px 290px;
-    width: 185px;
-    height: 213px;
-    font-size: 50px;
-}
-.sup1 p{
-    margin-right: 600px;
-    font-size: 40px;
-}
-.sup1 a{
-    font-size: 40px;
-    color: red;
-}
-.title4 a{
-    font-size: 40px;
-}
-.main5{
-    margin-top: 2580px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-image: url("img/main/1623640495_9-phonoteka_org-p-abstraktsiya-suprematizm-oboi-krasivo-10\ \(1\).jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:100%;
-    height:300px;
-    text-align: center;
-}
-.main5 a{
-    color:SteelBlue;
-    font-size: 40px;
-    margin-left: 25px;
-    
-}
-.main5 a::before{
-    
-    margin-left: 0;
-    content: url("img/main/vk.png");
+h1{
+  margin-bottom: 50px;
   
+  font-size: 60px;
+  color: Bisque;
 }
-.qwe{
-
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:100%;
-    height:100%;
-    text-align: center;
-}
-.qwe a{
-    font-size: 30px;
-    color: MediumPurple;
-}
-.qwe h1{
-    font-size: 30px;
-    color: red;
-}
-.t1{
-    width: 1000px;
-    display: flex;
-    margin-left: 400px
-}
-.t1 img{
-    width: 300px;
-    height: 400px;
-}
-.im1 img{
-    height: 400px;
-    margin-right: 70px;
-}
-.im1 h1{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.t2{
-    width: 1000px;
-    display: flex;
-    margin-left: 400px
-}
-.t2 img{
-    width: 300px;
-    height: 400px;
-}
-
-.im2 img{
-    height: 400px;
-    margin-right: 70px;
-    width: 320px;
-}
-.im2 h1{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-.t3{
-    width: 1000px;
-    display: flex;
-    margin-left: 400px
-}
-.t3 img{
-    width: 350px;
-    height: 400px;
-}
-
-.im3 img{
-    height: 400px;
-    margin-right: 70px;
-    width: 320px;
-}
-.im3 h1{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-.i1 img{
-    height: 400px;
-    margin-right: 70px;
-    width: 320px;
-}
-.i1 h1{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-.d1 p{
-    font-size: 20px;
-}
-.i1 img{
-    height: 400px;
-    margin-right: 70px;
-    width: 400px;
-}
+button{
+  margin-top: 15px;
+  margin-bottom: 40px;
+  width: 400px;
+ height: 40px;
+  color:Bisque;
+  background-color: black;
  
-.i2 img{
-    height: 400px;
-    margin-right: 70px;
-    width: 320px;
+  border: 1px solid Bisque;
+  border-radius: 40px;
 }
-.i2 h1{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-.d2 p{
-    font-size: 20px;
-    
-}
-.d2 h1{
-    font-size: 30px;
-    color: black;
-}
-.i2 img{
-    height: 400px;
-    margin-right: 70px;
-    width: 400px;
-}
- 
-.i3 h1{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-.d3 p{
-    font-size: 20px;
-    
-}
-.d3 h1{
-    font-size: 30px;
-    color: palevioletred;
-}
-.i3 img{
-    height: 400px;
-    margin-right: 70px;
-    width: 400px;
-}
- 
-.i4 h1{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-.d4 p{
-    font-size: 20px;
-    
-}
-.d4 h1{
-    font-size: 30px;
-    color: palevioletred;
-}
-.i4 img{
-    height: 400px;
-    margin-right: 70px;
-    width: 400px;
-}
- 
