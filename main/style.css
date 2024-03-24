@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+ol,
+li{
+    list-style:none;
+}
+
+img{
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+body{
+background-color: black;
+
+}
+
+.wrapper{
+    overflow-x:hidden;
+    min-height: 100%;
+    overflow: hidden;  
+}
+.main{
+ width:1080px;
+ height: 2000px;
+text-align: center;
+  background-image: url(https://i.pinimg.com/564x/dd/28/ad/dd28add005f2e1bbe47754a4a8769e0b.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+.q11 { 
+  margin-top: 30px;
+  width: 400px;
+ height: 40px;
+color: Bisque;
+background-color: black;
+text-align: center;
+ border: 1px solid Bisque;
+border-radius: 15px;}
+p{
+  color: Bisque;
+  font-size: 45px;
+    margin-right: 200px;
+  margin-left: 200px;
+}
+h1{
+  margin-bottom: 50px;
+  
+  font-size: 60px;
+  color: Bisque;
+}
+button{
+  margin-top: 15px;
+  margin-bottom: 40px;
+  width: 400px;
+ height: 40px;
+  color:Bisque;
+  background-color: black;
+ 
+  border: 1px solid Bisque;
+  border-radius: 40px;
+}
